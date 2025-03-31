@@ -8,7 +8,9 @@
     "prettier": "prettier --write .",
     "doc": "typedoc",
     "test": "vitest run",
-    "coverage": "vitest run --coverage --coverage.include 'src/*.ts'"
+    "coverage": "vitest run --coverage --coverage.include 'src/*.ts'",
+    "server": "node dist/mod/server.js",
+    "client": "node dist/mod/client.js"
   },
   "repository": {
     "type": "git",
